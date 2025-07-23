@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rock,Paper,Sissor Game</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body id="wholecolor" img="image" src="images/gradient.png" alt="gradient">
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices">
+            <div class="choice" id="Rock">
+                <img src="images/rock.png" alt="image of rock sign made with hand" />
+            </div>
+            <div class="choice" id="Paper">
+                <img src="images/paper.png" alt="image of paper sign made with hand" />
+            </div>
+            <div class="choice" id="Scissors">
+                <img src="images/scissors.png" alt="image of scissor sign made with hand" />
+            </div>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p id="text1" class="choice-board"></p>
+                <p id="player">YOU</p>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p id="text2"></p>
+                <p id="player">COMPUTER</p>
+            </div>
+        </div>
+
+        <div class="msg-container">
+            <p id="msg">Play your move</p>
+        </div>
+        <div>
+            <button id="restartBtn">Restart Game</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>
